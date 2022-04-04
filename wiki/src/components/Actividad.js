@@ -2,7 +2,7 @@ import React from 'react'
 
 const Actividad = () => {
   return (
-    <section id="actividad">
+    <section id="actividad" className="mt-5 pt-3">
         <h3 className="text-center">Actividad</h3>
         <h4>Descripción de la actividad:</h4>
       <p className="text-justify">
@@ -36,7 +36,26 @@ const Actividad = () => {
         Como última parte del trabajo ustedes deben visitar las Wiki creadas por los demás grupos y en un comentario exponer su opinión frente al diseño implementado por cada equipo de trabajo. 
         </p>
         
-
+      <h4>Instrucciones:</h4>
+      <ul className="text-justify">
+        <li>
+          Ser congruente con las temáticas que se están trabajando, de orden teórico o práctico.</li>
+        <li>
+          Convocar el pensamiento de orden superior: análisis, crítica constructiva, pensamiento divergente. Apoyo en la taxonomía de objetivos de Bloom. Nunca en la memoria.
+        </li>
+        <li>
+          Respetar normas gramaticales y ortográficas.
+        </li>
+        <li>
+          Es un recurso textual que invita a la participación y motiva del pensamiento.
+        </li>
+        <li>
+          Útil que sean provocativas (problemática real). Redactadas de manera completa.
+        </li>
+        <li>
+          Guardar correspondencia con la rúbrica de evaluación.
+        </li>
+      </ul>
 
     </section>
   )

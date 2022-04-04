@@ -2,7 +2,7 @@ import React from 'react'
 
 const Objetivos = () => {
   return (
-    <section id="objetivos">
+    <section id="objetivos" className="mt-5 pt-3">
       <h3 className="text-center">Objetivos</h3>
       <h5>Objetivo de aprendizaje:</h5>
       <p className="text-justify">

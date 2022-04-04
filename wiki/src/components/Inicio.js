@@ -1,8 +1,12 @@
 import React from 'react'
 import Actividad from './Actividad'
 import Banner from './Banner'
+import Cobit from './Cobit'
+import Contact from './Contact'
+import Footer from './Footer'
 import Header from './Header'
 import Introduccion from './Introduccion'
+import Itil from './Itil'
 import Objetivos from './Objetivos'
 
 const Inicio = () => {
@@ -14,7 +18,11 @@ const Inicio = () => {
         <Objetivos/>
         <Introduccion/>
         <Actividad/>
+        <Cobit/>
+        <Itil/>
       </div>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }

@@ -19,6 +19,8 @@ const Header = () => {
                       <li><a className="dropdown-item" href="#objetivos">Objetivos</a></li>
                       <li><a className="dropdown-item" href="#introduccion">Introduccion</a></li>
                       <li><a className="dropdown-item" href="#actividad">Actividad</a></li>
+                      <li><a className="dropdown-item" href="#cobit">Cobit</a></li>
+                      <li><a className="dropdown-item" href="#itil">Itil</a></li>
                     </ul>
                   </li>
               </ul>
