@@ -7,6 +7,23 @@ const Itil = () => {
         <h2>ITIL</h2>
         <img src="/img/itil.jpeg" alt="" className="img-fluid" />
       </div>
+      <h3>Introducción</h3>
+      <p className="text-justify">
+        Es un conjunto de conceptos y buenas prácticas para la gestión de los servicios de tecnologías de la información, el desarrollo de las tecnologías de la información y las operaciones relacionadas con la misma en general. ITIL brinda descripciones detalladas de un amplio conjunto de procedimientos de gestión diseñados para ayudar a las organizaciones a lograr calidad y eficiencia en las operaciones de TI. Estos procedimientos son independientes del proveedor y se han desarrollado para servir como una guía que abarque toda la infraestructura, el desarrollo y las operaciones de TI. (Esto según el libro ITIL V3 2011).
+      </p>
+      <p className="text-justify">
+        En ITIL v3 reestructura el manejo de temas para consolidar el modelo de “ciclo de vida del servicio” separando y ampliando algunos subprocesos hasta convertirlos en procesos especializados. Esta modificación responde a un enfoque de negocio para grandes corporaciones que utilizan ampliamente ITIL en sus operaciones y pretende consolidar el modelo para lograr aún mejores resultados. Por eso los especialistas recomiendan que las empresas emergentes o medianas no utilicen ITIL v3 si no cuentan con un modelo ITIL consolidado y aspiran a una expansión a muy largo plazo. ITIL v3 consta de 5 libros basados en el ciclo de vida del servicio:
+      </p>
+      <ol>
+        <li> Estrategia del Servicio</li>
+        <li>Diseño del Servicio</li>
+        <li>Transición del Servicio</li>
+        <li>Operación del Servicio</li>
+        <li>Mejora Continua del Serviciocic</li>
+      </ol>
+      <div className="text-center">
+        <img src="/img/cicloitil.gif" alt="" className="img-fluid" />
+      </div>
       <h3>¿Qué es ITIL?</h3>
       <p className="text-justify">
         La Biblioteca de Infraestructura de Tecnologías de Información (ITIL sus siglas en inglés) es un conjunto de conceptos y buenas prácticas usadas para la gestión de servicios de tecnologías de la información, el desarrollo de tecnologías de la información y las operaciones relacionadas con la misma en general.
@@ -55,6 +72,18 @@ const Itil = () => {
       <p className="text-justify">
         Generalmente, les solicitan métricas técnicas que muchas veces no reflejan lo que el negocio necesita, con lo cual se hace difícil justificar las contribuciones reales que los proveedores están proporcionándole a la empresa.
       </p>
+      <h3>OPTIMIZACION DE RECURSOS DE TI</h3>
+      <h4>LA ADMINISTRACIÓN Y OPTIMIZACIÓN DE SERVICIOS DE TI DEBE:</h4>
+      <ul>
+        <li>Evaluar los recursos tecnológicos disponibles</li>
+        <li>Determinar cuáles son las carencias actuales de la organización en relación
+          a esos recursos que la restringe de alcanzar sus objetivos</li>
+      <li>Implementar estos cambios y optimizaciones en el servicio de TI para revertir este cuadro</li>
+      <li>Administrar las mejoras de forma integrada</li>
+      <li>Monitorear los resultados y evaluar la necesidad de nuevas optimizaciones
+        del servicio de TI</li>
+        <li>Atender llamados, si es necesario, y descubrir maneras de minimizar estas ocurrencias</li>
+      </ul>
     </div>
   )
 }

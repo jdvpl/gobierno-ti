@@ -8,6 +8,10 @@ import Header from './Header'
 import Introduccion from './Introduccion'
 import Itil from './Itil'
 import Objetivos from './Objetivos'
+import Conclusiones from './Conclusiones'
+import ArquitecturCobit from './ArquitecturCobit'
+import ComputacionNube from './ComputacionNube'
+import OptimizarProcesosTI from './OptimizarProcesosTI'
 
 const Inicio = () => {
   return (
@@ -18,8 +22,12 @@ const Inicio = () => {
         <Objetivos/>
         <Introduccion/>
         <Actividad/>
+        <OptimizarProcesosTI/>
+        <ArquitecturCobit/>
+        <ComputacionNube/>
         <Cobit/>
         <Itil/>
+        <Conclusiones/>
       </div>
         <Contact/>
         <Footer/>
